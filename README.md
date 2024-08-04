@@ -26,10 +26,15 @@ cd git_analyzer
 
 Step 2: Run the Git Analyzer
 Run the git analyzer script to generate the contributions.json file.
-(If repo_path is not given, it will use the current working directory)
 
 ```sh
 python git_analyzer_json.py <repo_path>
+```
+
+or just use the current working directory to quick start
+
+```sh
+python git_analyzer_json.py
 ```
 
 Step 3: Start the Server
