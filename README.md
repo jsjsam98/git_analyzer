@@ -27,6 +27,8 @@ cd git_analyzer
 Step 2: Run the Git Analyzer
 Run the git analyzer script to generate the contributions.json file.
 
+e.g. python git_analyzer_json.py C:\\User\\...\\some-git-repo
+
 ```sh
 python git_analyzer_json.py <repo_path>
 ```

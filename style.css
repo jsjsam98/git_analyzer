@@ -1,0 +1,20 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+.author,
+.file-type {
+	margin-bottom: 20px;
+}
+.chart-container {
+	width: 80%;
+	margin: auto;
+}
+.commit {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.checkbox-label {
+	display: inline-block;
+	margin-right: 15px;
+}
