@@ -34,7 +34,6 @@ def get_git_commits(repo_path, author):
         ],
         stdout=subprocess.PIPE,
         text=True,
-        shell=True,  # Allow shell to interpret the command correctly
     )
     commits = []
     commit_blocks = result.stdout.split(unique_delimiter)[
