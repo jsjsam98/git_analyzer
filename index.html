@@ -59,6 +59,10 @@
 			async function loadContributions() {
 				const response = await fetch("contributions.json");
 				contributionsData = await response.json();
+				// sort contributionData by author name
+				contributionsData.sort((a, b) =>
+					a.author.localeCompare(b.author)
+				);
 				populateUI();
 				displayAllUsersContributions();
 			}
