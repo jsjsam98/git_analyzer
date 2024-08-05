@@ -10,6 +10,10 @@ body {
 	width: 80%;
 	margin: auto;
 }
+.chart-container canvas {
+	width: 50% !important;
+	height: 50% !important;
+}
 .commit {
 	margin-left: 20px;
 	margin-bottom: 10px;
